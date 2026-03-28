@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudharsan Baskar | Developer Portfolio</title>
+    <link rel="icon" href="https://via.placeholder.com/32/3b82f6/ffffff?text=SB">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="no-scroll">
+
+    <div id="intro-screen">
+        <h1 class="intro-name">SUDHARSAN BASKAR</h1>
+    </div>
+
+    <canvas id="bg-canvas"></canvas>
+
+    <nav id="navbar">
+        <div class="container nav-content">
+            <div class="logo">SUDHARSAN.B</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle" id="theme-btn">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div id="scroll-top"><i class="fas fa-arrow-up"></i></div>
+
+    <section id="home" class="container">
+        <div class="hero-flex">
+            <div class="hero-text">
+                <h2 class="hero-fade-in hero-delay-1">HELLO, I'M</h2>
+                <h1 class="hero-fade-in hero-delay-2">Sudharsan Baskar</h1>
+                <div class="typing-text hero-fade-in hero-delay-3" id="typewriter"></div>
+                <p class="hero-fade-in hero-delay-3" style="color: var(--text-sec); margin-bottom: 30px; font-size: 1.1rem; max-width: 500px;">
+                    Building efficient solutions with code and solving real-world problems.
+                </p>
+                <div class="hero-fade-in hero-delay-4 hero-buttons"> 
+                    <a href="#" class="btn btn-primary"><i class="fas fa-file-download"></i> Resume</a>
+                    <a href="https://github.com/Sudharsan-2006-prog" target="_blank" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://leetcode.com/u/Sudharsan_baskar/" target="_blank" class="btn btn-outline"><i class="fas fa-code"></i> LeetCode</a>
+                </div>
+            </div>
+            <div class="hero-image hero-fade-in hero-delay-2">
+                <div class="img-box tilt-element">
+                    <img src="Photo.jpeg" alt="Sudharsan Baskar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container section">
+        <h2 class="section-title stagger-item reveal-hidden">About Me</h2>
+        <div class="about-card stagger-item reveal-hidden tilt-element">
+            <p style="font-size: 1.15rem; line-height: 1.8;">
+                I am a passionate <strong>Second Year Computer Science student</strong> at <strong>SSN College of Engineering</strong>. 
+                My journey in tech is driven by a curiosity to solve complex problems through software. Currently, I am actively contributing 
+                to an internally funded student project (IFSP) focused on a <strong>Forest Fire Detection System</strong> using IoT. 
+                With a strong foundation in DSA and a growing interest in <strong>Web Development and Data Science</strong>, I thrive 
+                on building applications that have a real-world impact.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="container section">
+        <h2 class="section-title stagger-item reveal-hidden">My Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-category stagger-item reveal-hidden tilt-element">
+                <h3>Languages</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-info"><span>C / C++</span><span>90%</span></div>
+                        <div class="progress-bar"><div class="progress-fill" data-width="90%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Python</span><span>85%</span></div>
+                        <div class="progress-bar"><div class="progress-fill" data-width="85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Java / JS</span><span>80%</span></div>
+                        <div class="progress-bar"><div class="progress-fill" data-width="80%"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category stagger-item reveal-hidden tilt-element">
+                <h3>Web Development</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-info"><span>HTML/CSS/Tailwind</span><span>95%</span></div>
+                        <div class="progress-bar"><div class="progress-fill" data-width="95%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Spring Boot</span><span>70%</span></div>
+                        <div class="progress-bar"><div class="progress-fill" data-width="70%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Databases (SQL/NoSQL)</span><span>80%</span></div>
+                        <div class="progress-bar"><div class="progress-fill" data-width="80%"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category stagger-item reveal-hidden tilt-element">
+                <h3>Core CS & Tools</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-info"><span>DSA & OOP</span><span>85%</span></div>
+                        <div class="progress-bar"><div class="progress-fill" data-width="85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Git / GitHub</span><span>90%</span></div>
+                        <div class="progress-bar"><div class="progress-fill" data-width="90%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>AI Foundations</span><span>75%</span></div>
+                        <div class="progress-bar"><div class="progress-fill" data-width="75%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container section">
+        <h2 class="section-title stagger-item reveal-hidden">Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card stagger-item reveal-hidden tilt-element">
+                <div class="project-img"><i class="fas fa-fire"></i></div>
+                <div class="project-info">
+                    <h3>Forest Fire Detection (IoT)</h3>
+                    <p style="color: var(--text-sec);">Real-time fire detection system using sensors and IoT for early warning and prevention.</p>
+                    <div class="tech-tags">
+                        <span class="tag">IoT</span><span class="tag">Sensors</span><span class="tag">Embedded Systems</span>
+                    </div>
+                    <a href="#" class="btn-outline btn" style="padding: 8px 20px;">View Repo</a>
+                </div>
+            </div>
+            <div class="project-card stagger-item reveal-hidden tilt-element">
+                <div class="project-img"><i class="fas fa-gamepad"></i></div>
+                <div class="project-info">
+                    <h3>Snake Game (C + Raylib)</h3>
+                    <p style="color: var(--text-sec);">Classic game logic with food, bomb mechanics, and real-time score tracking.</p>
+                    <div class="tech-tags">
+                        <span class="tag">C</span><span class="tag">Raylib</span><span class="tag">Game Dev</span>
+                    </div>
+                    <a href="#" class="btn-outline btn" style="padding: 8px 20px;">View Repo</a>
+                </div>
+            </div>
+            <div class="project-card stagger-item reveal-hidden tilt-element">
+                <div class="project-img"><i class="fas fa-university"></i></div>
+                <div class="project-info">
+                    <h3>Banking System</h3>
+                    <p style="color: var(--text-sec);">Java console application implementing OOP concepts and secure transaction handling.</p>
+                    <div class="tech-tags">
+                        <span class="tag">Java</span><span class="tag">OOP</span><span class="tag">Finance</span>
+                    </div>
+                    <a href="#" class="btn-outline btn" style="padding: 8px 20px;">View Repo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container section">
+        <div class="stats-grid">
+            <div class="stat-item stagger-item reveal-hidden tilt-element">
+                <span class="stat-number" data-target="150">0</span>
+                <p>LeetCode Solved</p>
+            </div>
+            <div class="stat-item stagger-item reveal-hidden tilt-element">
+                <span class="stat-number" data-target="4">0</span>
+                <p>Projects Built</p>
+            </div>
+            <div class="stat-item stagger-item reveal-hidden tilt-element">
+                <span class="stat-number" data-target="10">0</span>
+                <p>Tech Stack</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="container section">
+        <h2 class="section-title stagger-item reveal-hidden">Achievements</h2>
+        <div class="about-card stagger-item reveal-hidden tilt-element">
+            <ul style="list-style: none;">
+                <li style="margin-bottom: 20px; display: flex; align-items: center; gap: 15px;">
+                    <i class="fas fa-trophy" style="color: var(--icon-gold); font-size: 1.5rem;"></i>
+                    <span>3rd Place in GeekZ26 Technical Quiz (SSN)</span>
+                </li>
+                <li style="margin-bottom: 20px; display: flex; align-items: center; gap: 15px;">
+                    <i class="fas fa-rocket" style="color: var(--primary); font-size: 1.5rem;"></i>
+                    <span>Selected in Round 1 - Technoverse Hackathon</span>
+                </li>
+                <li style="margin-bottom: 20px; display: flex; align-items: center; gap: 15px;">
+                    <i class="fas fa-code" style="color: var(--icon-green); font-size: 1.5rem;"></i>
+                    <span>Consistent Problem Solver: 150+ LeetCode problems</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="future-goals" class="container section">
+        <h2 class="section-title stagger-item reveal-hidden">Future Goals</h2>
+        <div class="about-card stagger-item reveal-hidden tilt-element">
+            <ul style="list-style: none;">
+                <li style="margin-bottom: 20px; display: flex; align-items: center; gap: 15px;">
+                    <i class="fas fa-briefcase" style="color: var(--primary); font-size: 1.5rem;"></i>
+                    <span>Secure a placement in a reputed company (preferably banking or tech)</span>
+                </li>
+                <li style="margin-bottom: 20px; display: flex; align-items: center; gap: 15px;">
+                    <i class="fas fa-chart-line" style="color: var(--secondary); font-size: 1.5rem;"></i>
+                    <span>Gain industry experience and build strong technical expertise</span>
+                </li>
+                <li style="margin-bottom: 20px; display: flex; align-items: center; gap: 15px;">
+                    <i class="fas fa-lightbulb" style="color: var(--icon-gold); font-size: 1.5rem;"></i>
+                    <span>Start a startup in the future</span>
+                </li>
+                <li style="margin-bottom: 20px; display: flex; align-items: center; gap: 15px;">
+                    <i class="fas fa-graduation-cap" style="color: var(--icon-red); font-size: 1.5rem;"></i>
+                    <span>Pursue higher studies in the USA</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="fun-facts" class="container section">
+        <h2 class="section-title stagger-item reveal-hidden">Fun Facts About Me</h2>
+        <div class="stats-grid">
+            <div class="stat-item fun-fact-card stagger-item reveal-hidden tilt-element">
+                <i class="fas fa-cricket-bat-ball" style="font-size: 2.5rem; color: var(--primary); margin-bottom: 15px; display: inline-block;"></i>
+                <p>Loves playing Cricket and Badminton</p>
+            </div>
+            <div class="stat-item fun-fact-card stagger-item reveal-hidden tilt-element">
+                <i class="fas fa-landmark" style="font-size: 2.5rem; color: var(--secondary); margin-bottom: 15px; display: inline-block;"></i>
+                <p>Political Enthusiast</p>
+            </div>
+            <div class="stat-item fun-fact-card stagger-item reveal-hidden tilt-element">
+                <i class="fas fa-user-tie" style="font-size: 2.5rem; color: var(--icon-green); margin-bottom: 15px; display: inline-block;"></i>
+                <p>Interested in Business and Entrepreneurship</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="container section">
+        <h2 class="section-title stagger-item reveal-hidden">Certifications</h2>
+        <div class="project-grid">
+            <div class="about-card stagger-item reveal-hidden tilt-element" style="text-align: center; border-bottom: 3px solid var(--primary);">
+                <i class="fab fa-python" style="font-size: 3rem; color: var(--icon-blue); margin-bottom: 20px;"></i>
+                <h3 style="margin-bottom: 10px;">Certified Python Developer</h3>
+                <p style="color: var(--text-sec);">Livewire (CADD Centre)</p>
+            </div>
+            <div class="about-card stagger-item reveal-hidden tilt-element" style="text-align: center; border-bottom: 3px solid var(--secondary);">
+                <i class="fas fa-bolt" style="font-size: 3rem; color: var(--icon-yellow); margin-bottom: 20px;"></i>
+                <h3 style="margin-bottom: 10px;">No-Code / Low-Code Developer</h3>
+                <p style="color: var(--text-sec);">Zoho Corporation</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="container section">
+        <h2 class="section-title stagger-item reveal-hidden">Education</h2>
+        <div class="edu-item stagger-item reveal-hidden">
+            <h3>B.E Computer Science and Engineering</h3>
+            <p style="color: var(--text-sec);">SSN College of Engineering | 2024 – Present</p>
+            <p><strong>CGPA: 8.05</strong> (Till 3rd Sem)</p>
+        </div>
+        <div class="edu-item stagger-item reveal-hidden">
+            <h3>Higher Secondary (12th Grade)</h3>
+            <p style="color: var(--text-sec);">S.R.V Boys Higher Secondary School | 2023 – 2024</p>
+            <p><strong>Score: 95.8%</strong></p>
+        </div>
+        <div class="edu-item stagger-item reveal-hidden">
+            <h3>Secondary (10th Grade)</h3>
+            <p style="color: var(--text-sec);">Glazebrooke Matriculation Higher Secondary School | 2021 – 2022</p>
+            <p><strong>Score: 90.8%</strong></p>
+        </div>
+    </section>
+
+    <section id="contact" class="container section">
+        <h2 class="section-title stagger-item reveal-hidden">Get In Touch</h2>
+        <div class="contact-content">
+            <div class="about-card stagger-item reveal-hidden tilt-element" style="text-align: center; width: 100%; max-width: 600px;">
+                <p style="margin-bottom: 10px;">Have a project in mind or just want to say hi?</p>
+                
+                <a href="mailto:sudharsanbaskar06@gmail.com" class="btn btn-primary" style="margin: 20px 0;">
+                    <i class="fas fa-envelope"></i> Email Me
+                </a>
+                
+                <p style="margin-top: 10px;">Phone: +91 94424 77758</p>
+                <div class="social-links" style="justify-content: center; margin-top: 25px;">
+                    <a href="https://github.com/Sudharsan-2006-prog" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://leetcode.com/u/Sudharsan_baskar/" target="_blank"><i class="fas fa-code"></i></a>
+                    <a href="https://x.com/Sudhan0606" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/sudharsan-baskar-215113325" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sudharsan Baskar. Built with <i class="fas fa-heart" style="color: var(--icon-red);"></i> and Passion.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
