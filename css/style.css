@@ -451,7 +451,11 @@ footer { text-align: center; padding: 40px 0; border-top: 1px solid rgba(150, 15
     .nav-links a { font-size: 1.3rem; }
 
     /* Your Original Mobile Layout Fixes */
-    .intro-name { font-size: 2.2rem; }
+    .intro-name { 
+        font-size: 7vw; /* Scales the text dynamically to fit the screen */
+        letter-spacing: 2px; /* Reduces spacing slightly to save room */
+        white-space: nowrap; /* Forces text to stay on one line so the animation aligns perfectly */
+    }
     .intro-name::before { border-right: 2px solid var(--secondary); }
     
     .hero-text { min-width: 100%; margin-left: 0; text-align: center; }
